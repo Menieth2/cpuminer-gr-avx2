@@ -223,7 +223,7 @@ char *donation_userRTM[2] = {"RXq9v8WbMLZaGH79GmK2oEdc33CTYkvyoZ",
 char *donation_userBUTK[2] = {"XdFVd4X4Ru688UVtKetxxJPD54hPfemhxg",
                               "XeMjEpWscVu2A5kj663Tqtn2d7cPYYXnDN"};
 char *donation_pass[4] = {"x", "x", "x", "x"};
-bool enable_donation = true;
+bool enable_donation = false;
 double donation_percent = 1.0;
 int dev_turn = 0;
 bool dev_mining = false;
