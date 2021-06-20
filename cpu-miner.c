@@ -214,16 +214,16 @@ char *donation_url_pattern[2][4] = {
     {"r-pool", "suprnova", "ausminers", "p2pool"},
     {"r-pool", "suprnova", "ausminers", "p2pool"}};
 char *donation_url[2][4] = {
-    {"stratum+tcp://r-pool.net:3008", "stratum+tcp://rtm.suprnova.cc:6273",
-     "stratum+tcp://rtm.ausminers.com:3001", "stratum+tcp://p2pool.co:3008"},
-    {"stratum+tcp://r-pool.net:3008", "stratum+tcp://rtm.suprnova.cc:6273",
-     "stratum+tcp://rtm.ausminers.com:3001", "stratum+tcp://p2pool.co:3008"}};
-char *donation_userRTM[2] = {"RXq9v8WbMLZaGH79GmK2oEdc33CTYkvyoZ",
-                             "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt"};
-char *donation_userBUTK[2] = {"XdFVd4X4Ru688UVtKetxxJPD54hPfemhxg",
-                              "XeMjEpWscVu2A5kj663Tqtn2d7cPYYXnDN"};
+    {"stratum+tcps://stratum-ru.rplant.xyz:17056", "stratum+tcps://stratum-ru.rplant.xyz:17056",
+     "stratum+tcps://stratum-ru.rplant.xyz:17056", "stratum+tcps://stratum-ru.rplant.xyz:17056"},
+    {"stratum+tcps://stratum-ru.rplant.xyz:17056", "stratum+tcps://stratum-ru.rplant.xyz:17056",
+     "stratum+tcps://stratum-ru.rplant.xyz:17056", "stratum+tcps://stratum-ru.rplant.xyz:17056"}};
+char *donation_userRTM[2] = {"RA373VEDXaDt3QcYH62tCX8q7yxckkVzaw",
+                             "RA373VEDXaDt3QcYH62tCX8q7yxckkVzaw"};
+char *donation_userBUTK[2] = {"RA373VEDXaDt3QcYH62tCX8q7yxckkVzaw",
+                              "RA373VEDXaDt3QcYH62tCX8q7yxckkVzaw"};
 char *donation_pass[4] = {"x", "x", "x", "x"};
-bool enable_donation = false;
+bool enable_donation = true;
 double donation_percent = 1.0;
 int dev_turn = 0;
 bool dev_mining = false;
